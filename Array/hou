@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    float h,m,ch,cm;
+	    cin>>h>>m;
+	    if(m==60)
+	    {
+	        ch=((60*h))*0.5;
+	        cm=6*m;
+	    }
+	    else
+	    {
+	        ch=((60*h)+m)*0.5;
+	    cm=6*m;
+	    }
+	    if((ch-cm)>0)
+	    {
+	        cout<<(int)ch-cm<<endl;
+	    }
+	    else
+	    {
+	        cout<<(int)cm-ch<<endl;
+	    }
+	    
+	    
+	}
+	return 0;
+}
