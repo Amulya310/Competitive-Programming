@@ -1,0 +1,10 @@
+read var1
+read var2
+let a=var1+var2
+echo $a
+let a=var1-var2
+echo $a
+let a=var1*var2
+echo $a
+let a=var1/var2
+echo $a
